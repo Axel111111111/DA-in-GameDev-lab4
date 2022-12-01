@@ -140,7 +140,8 @@
 		double dp = DotProductBias(weights,ts[i].input);
 		if(dp > 0) return(1);
 		return (0);
-	}`
+	}
+`
 
 ## Задание 3
 ## Построить визуальную модель работы перцептрона на сцене Unity
