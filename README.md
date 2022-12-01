@@ -100,7 +100,7 @@
 
 ### XOR
 
-У XOR перцептрон не может выполнить вычисления <br><br>
+У XOR одиночный перцептрон не может выполнить вычисления. Так как перцептрон является линейным касификатаром.  <br><br>
 ![1 4 1](https://user-images.githubusercontent.com/49406824/205069323-5f88cb16-a7cf-446b-aacf-9aa76daf755c.png)
 ![1 4 2](https://user-images.githubusercontent.com/49406824/205069335-7d00640d-a18b-4528-94dd-6b3cd087fb79.png)
 <br>
