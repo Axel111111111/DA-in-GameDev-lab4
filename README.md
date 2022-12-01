@@ -43,7 +43,7 @@
 Во время вычислений я проверял количество ошибок при 2, 4, 5, 6, 8 эпохах и пытался найти значение эпох при котором перцептрон полностью обучится.
 Во время тыстов я брал выборку из 10 попыток (в некоторых случаях из 30)
 
-###OR
+### OR
 
 ![1 1 1](https://user-images.githubusercontent.com/49406824/205069019-2de446b0-9d23-4d16-856d-dca22a6cbe15.png)
 
@@ -64,7 +64,7 @@
 ![1 1 4](https://user-images.githubusercontent.com/49406824/205069107-e4839ece-e319-4bc1-82d7-69f4014d4fa9.png)
 
 
-###AND
+### AND
 
 ![1 2 1](https://user-images.githubusercontent.com/49406824/205069142-6eb8ef8a-815e-49f3-a0a7-5cb1808507de.png)
 
@@ -81,7 +81,7 @@
 ![1 2 4](https://user-images.githubusercontent.com/49406824/205069196-9a9e346d-0285-403a-a503-a4d3bc14ab99.png)
 
 
-###NAND
+### NAND
 
 ![1 3 1](https://user-images.githubusercontent.com/49406824/205069212-0bb715a3-f7c2-43fb-9fd1-597e164e5f4e.png)
 
@@ -97,7 +97,7 @@
 Количество успешных обучений: 27/30
 ![1 3 4](https://user-images.githubusercontent.com/49406824/205069304-15b642fb-5d25-48ca-bfe8-6f1743405c5b.png)
 
-###XOR
+### XOR
 
 У XOR перцептрон не может выполнить вычисления
 ![1 4 1](https://user-images.githubusercontent.com/49406824/205069323-5f88cb16-a7cf-446b-aacf-9aa76daf755c.png)
