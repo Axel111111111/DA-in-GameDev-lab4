@@ -114,7 +114,33 @@
 
 ![2 2](https://user-images.githubusercontent.com/49406824/205069830-5567fd89-5229-4b6c-978c-1de48ecf91b3.png)
 
-Количество эпох обучения зависит от сложноти логической операции   
+Необходимое количество эпох обучения зависит от bias - смещение и weights - веса. Доказательство можно увидеть в коде ниже:
+
+'double DotProductBias(double[] v1, double[] v2) 
+	{
+		if (v1 == null || v2 == null)
+			return -1;
+	 
+		if (v1.Length != v2.Length)
+			return -1;
+	 
+		double d = 0;
+		for (int x = 0; x < v1.Length; x++)
+		{
+			d += v1[x] * v2[x];
+		}
+
+		d += bias;
+	 
+		return d;
+	}
+
+	double CalcOutput(int i)
+	{
+		double dp = DotProductBias(weights,ts[i].input);
+		if(dp > 0) return(1);
+		return (0);
+	}'
 
 ## Задание 3
 ## Построить визуальную модель работы перцептрона на сцене Unity
