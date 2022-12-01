@@ -116,8 +116,8 @@
 
 Необходимое количество эпох обучения зависит от bias - смещение и weights - веса. Доказательство можно увидеть в коде ниже:
 
-'double DotProductBias(double[] v1, double[] v2) 
-	{
+'double DotProductBias(double[] v1, double[] v2)'
+	`{`
 		if (v1 == null || v2 == null)
 			return -1;
 	 
